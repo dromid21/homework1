@@ -1,0 +1,23 @@
+body
+header {
+    text-align: center}
+hr {
+    border: 2px solid green;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+#headline {
+    text-align: center;
+    font-style: italic;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.subject {
+    text-align: center
+}
