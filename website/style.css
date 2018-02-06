@@ -1,4 +1,6 @@
-body
+body {
+    width: 900px;
+}
 header {
     text-align: center}
 hr {
@@ -10,14 +12,77 @@ hr {
 #headline {
     text-align: center;
     font-style: italic;
+    font-size: 18px;
 }
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    max-width:30%;
+    max-height:30%;
 }
 
 .subject {
     text-align: center
 }
+
+#about {
+    float:left;
+    width:400px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#contact {
+    float:right;
+    width: 400px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#ed, #skills, #exp {
+    text-align: left;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+ol {
+    text-align: left;
+}
+
+div {
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+    overflow: visible;
+    display: inline-block;
+    border-collapse: collapse;
+    height: 320px;
+    margin-bottom: 100px;
+}
+
+#info {
+    text-align: left;
+}
+
+form {
+    border-style: solid;
+    padding: 20px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: gray;
+    margin: 25px;
+}
+
+submit {
+    resize: both;
+}
+
+#aboutme, #cme {
+
+}
+
